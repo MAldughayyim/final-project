@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>ملف الشخصي</title>
+  </head>
+  <body dir="rtl">
+    <header class="header">
+      <div class="header__left">
+        <img src="linkedin.png" alt="لوجو الموقع" />&nbsp;&nbsp;
+        <div class="header__search">
+          <i class="material-icons">search</i>
+          <input placeholder="بحث" type="text" />
+        </div>
+      </div>
+
+      <nav class="header__right">
+        <div class="headerOption">
+          <i class="material-icons headerOption__icon">home</i>
+          <a href="index.html"><h3>الصفحة الرئيسية</h3></a>
+        </div>
+        <div class="headerOption">
+          <i class="material-icons headerOption__icon">supervisor_account</i>
+          <h3>شبكتي</h3>
+        </div>
+        <div class="headerOption">
+          <i class="material-icons headerOption__icon">business_center</i>
+          <h3>الوظائف</h3>
+        </div>
+        <div class="headerOption">
+          <i class="material-icons headerOption__icon">chat</i>
+          <h3>الرسائل</h3>
+        </div>
+        <div class="headerOption">
+          <i class="material-icons headerOption__icon">notifications</i>
+          <h3>الإشعارات</h3>
+        </div>
+        <div class="headerOption">
+          <i class="material-icons headerOption__icon">account_circle</i>
+          <a href="./profile.html"><h3>صفحتي</h3></a>
+        </div>
+      </nav>
+    </header>
+
+    <main
+      style="
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3rem;
+      "
+    >
+      <section class="post" style="width: 100%; text-align: center">
+        <img
+          src="./Mohamed Aldughayyim.jpg"
+          alt="صورة محمد الدغيم"
+          style="border-radius: 50%; width: 10rem"
+        />
+        <hr />
+        <br />
+        <h1>محمد الدغيم</h1>
+        <p>طالب جامعي - مطور مواقع</p>
+      </section>
+
+      <section class="post" style="width: 100%; text-align: right">
+        <h1>نبذة عني</h1>
+        <br />
+        <p>طالب جامعي بجامعة الملك سعود تخصص هندسة برمجيات وهذا النص تجريبي.</p>
+        <br /><br />
+      </section>
+    </main>
+  </body>
+</html>
