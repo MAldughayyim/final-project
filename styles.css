@@ -27,7 +27,6 @@ body {
 .header {
   width: 100%;
   display: flex;
-  position: sticky;
   top: 0;
   z-index: 999;
   justify-content: space-evenly;
